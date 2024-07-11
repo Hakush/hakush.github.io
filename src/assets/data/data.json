@@ -14,8 +14,17 @@
       "compania": "",
       "img": "#",
       "descripcion": "Instalación de OS, software, conexión de cables/componentes, atención al ciente, caja, diseño gráfico y publicidad",
-      "referencia": "Patricio Ferreira 351 5452149",
+      "referencia": "",
       "inicio": "2017",
+      "fin": "actualidad"
+    },
+    {
+      "posicion": "Programacion web",
+      "compania": "Facultad de Odontologia - Universidad Nacional de Cordoba",
+      "img": "#",
+      "descripcion": "Desarrollo de diversos sistemas web como el de historia clinica unica digital, sistema de postulaciones y sistema de manejo de personal",
+      "referencia": "Carolina Piva 3515 12-0657",
+      "inicio": "2023-07-01",
       "fin": "actualidad"
     }
   ],
@@ -33,7 +42,7 @@
       "nivel": "Universitario",
       "titulo": "Lic. en Ciencias de la Computación",
       "img": "../assets/img/UTN_logo.jpg",
-      "descripcion": "Estudiante de 2do año de la carrera de Lic. en Ciencias de la Computación, FAMAF, UNC. (Progreso 30%, Materias 8/27, Promedio: 8.46)",
+      "descripcion": "Estudiante de 2do año de la carrera de Lic. en Ciencias de la Computación, FAMAF, UNC. (Progreso 43%, Materias 11/27, Promedio: 8.20)",
       "institucion": "FAMAF, UNC",
       "inicio": "2021",
       "fin": "en progreso"
