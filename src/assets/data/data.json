@@ -1,13 +1,14 @@
 {
   "name": "Facundo Sharry",
-  "age": 21,
-  "position": "Fullstack developer junior",
+  "age": 23,
+  "position": "Fullstack developer",
   "position2": "Computer Science student at FaMAF-UNC",
   "pfrom": "Cordoba, Argentina",
   "cellphone": "(+54 9) 3547-563095",
   "email": "facundo.sharry@gmail.com",
   "img_src": "../assets/perfil3.png",
-  "about": "",
+  "about": "I am a <span class=\"highlightText\">Computer Science </span> student beginning my journey in the <span class=\"highlightText\"> web development</span> market. I can create and design solutions for any problem within both the <span class=\"highlightText\">frontend</span> and <span class=\"highlightText\">backend</span>. This is precisely what I have been doing in my current job.",
+  "about2": "I have been studying Computer Science at the National University of Córdoba, Argentina, since 2021. Throughout my studies, I have gained a solid foundation in various areas, including (but are not limited to) algorithms, data structures, software development, and database management. These skills have equipped me to apply analytical thinking and problem-solving abilities to real-world challenges.\n Recently, I began working as a full-stack developer at the university's College of Odontology. I am passionate about digitalization and reducing bureaucracy, and I am proud to contribute to this process. One of my significant achievements includes helping develop the digital medical records system for the College of Odontology.",
   "experiencias": [
     {
       "posicion": "Armado y reparacion de PC",

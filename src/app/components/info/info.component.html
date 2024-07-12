@@ -1,23 +1,38 @@
 <!--2nd Article(article 2): Informacion personal-->
-      <article class="mb-4 mt-4" style="text-align: center">
-        <div style="display: inline-block; text-align: left;">
-        <div class="row g-0">
-        <div class="card text-center bg-dark" style="max-width:700px;">
-        <div class="card-header displayFont pb-0">
-          <h3 class="pb-0 mb-0">Informacion Personal<button class="bi bi-pencil-square btn btn-dark"></button></h3>
+<article class="section about mb-4 mt-4" id='about'>
+<div class="container">
+    <div class="section-box">
+        <div class="about-title" data-aos="fade-up">
+            <h3 class="section-title">
+                <span class='n-section-title displayFont'>About Me</span>
+            </h3>
         </div>
-        <div class="card-body py-0">
-          <p class="card-text">
-          <ul type="circle" style="display: inline-block; text-align: left;">
-            <li><strong>Nombre:</strong> {{persona.name}}
-            <li><strong>Edad:</strong> {{persona.age}}
-            <li><strong>Resido en:</strong> {{persona.pfrom}}
-            <li><strong>Nro. de Celular:</strong> {{persona.cellphone}}
-            <li><strong>E-mail:</strong> {{persona.email}}
-          </ul>
+        <div class="row">
+            <div class="col-12 col-md-6 mb-4 mb-md-0">
+                <div class="about-description">
+                    <p [innerHTML]="persona.about2" data-aos="fade-up" data-aos-duration="1000">
+                    </p>
+                    <ul class="skills-list" data-aos="fade-up">
+                        <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">HTML/CSS/Bootstrap </span></li>
+                        <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Javascript/Jquery </span></li>
+                        <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">PHP </span></li>
+                        <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Angular </span></li>
+                        <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">MySQL </span></li>
+                        <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Java </span></li>
+                        <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Assembly </span></li>
+                        <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">C </span></li>
+                        <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Joomla CMS </span></li>
+                        <li class="skill-element" data-aos="fade-up" data-aos-duration="1000"><span class="underline">Haskell </span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 mt-4 mt-md-0 text-center" data-aos="fade-up" data-aos-duration="1000">
+                <div class="about-img-container">
+                    <img class="rounded" width="400" height="300" src="https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U" alt="Facundo Sharry">
+                </div>
+            </div>
 
         </div>
-        </div>
-        </div>
-        </div>
-      </article>
+    </div>
+</div>
+</article>

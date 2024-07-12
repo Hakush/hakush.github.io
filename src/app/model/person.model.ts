@@ -9,8 +9,9 @@ export class person {
     email: String;
     img_src: String;
     about: String;
+    about2: String;
 
-    constructor(name: String, age: number, position: String, position2: String, pfrom: String, cellphone: String, email: String, img_src: String, about: String) {
+    constructor(name: String, age: number, position: String, position2: String, pfrom: String, cellphone: String, email: String, img_src: String, about: String, about2: String) {
         this.name = name;
         this.age = age;
         this.position = position;
@@ -20,5 +21,6 @@ export class person {
         this.email = email;
         this.img_src = img_src;
         this.about = about;
+        this.about2 = about2;
     }
 }

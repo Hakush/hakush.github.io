@@ -4,108 +4,91 @@
   /* font-weight: bold; !important */
 }
 
-body {
-  /*background-color: rgba(197, 153, 255,1);*/
-  /*background-color: rgb(112, 84, 150);*/
-  background-color: purple !important;
-  /*background-repeat:repeat-x;*/
-  /*background-repeat:repeat-y;*/
-  /*background-repeat: repeat;*/
-  color: rgb(204, 190, 0) !important;
-  background-image: url('assets/fondo (3).jpg');
-  background-size: cover !important;
-  /*background-attachment: scroll;*/
-  font-size: 110% !important;
-  line-height: 150% !important;
-  text-align: left;
-  font-family: 'Roboto Mono', monospace !important;
-  background-attachment: fixed;
+:root {
+  /* CSS HEX */
+  --russian-violet: #2F1143ff;
+  --slate-blue: #7469C1ff;
+  --byzantium: #76185Cff;
+  --russian-violet-2: #2A0F42ff;
+  --french-mauve: #B665C3ff;
+
+  --primary-text: #8892b0;
+  --secondary-text: #a8b2d1;
+  --active-text: #ccd6f6;
 }
 
-.navbar {
-	--bs-navbar-toggler-border-color: rgb(204, 190, 0) !important;
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--russian-violet) ;
+  background-repeat: no-repeat;
+  color: #8892b0;
+  font-size: 100% ;
+  line-height: 150% ;
+  text-align: left;
+  font-family: 'Roboto Mono', monospace ;
+  background-attachment: fixed;
 }
 
 hr {
   color: black;
 }
 
-.topWindow {
-  border: 0 0 0.05em solid rgba(25, 0, 99,0.5) 0;
-  text-align: left;
-  /*background: rgba(65, 0, 109,0.7);*/
-  background: rgba(37, 1, 61, 0.7);
-  backdrop-filter: blur(5px);
-  font-weight: bold;
-  color: yellowgreen;
-  margin: 0 0 0 0;
-  padding: 0.3em 0% 0.3em 0;
-  text-transform: uppercase;
+.primaryText {
+  color: var(--primary-text);
 }
 
-#navbar {
-  position: static;
-  top: 0em;
-  width: 100%;
+.primaryText:hover {
+  color: var(--byzantium);
 }
 
-.bottomWindow {
-  border: 2.5px solid rgba(0, 0, 0, 0.5);
-  background: rgba(0, 0, 0, 0.7);
-  font-weight: bold;
-  color: white;
-  margin-top: 0;
-  padding-top: 0;
-  backdrop-filter: blur(5px);
+.secondaryText {
+  color: var(--secondary-text);
 }
 
-.imglink {
-  display:inline;
-  border:2px solid;
-  border-color: transparent;
-  padding: 3%;
-  margin:0% 0%;
-  text-decoration:none;
-  background:none;
+.activeText {
+  color: var(--active-text);
 }
 
-.imglink:hover {
-  text-decoration:none;
-  cursor:pointer;
-  border-color:rgb(204, 190, 0);
-  background-color: black ;
+.activeText:hover {
+  color: var(--french-mauve);
 }
 
-.btnlink {
-  display:inline;
-  margin: 0%;
-  padding: 5%;
-  text-decoration:none;
-  background:none;
-  color: yellowgreen; 
-  border: 4px solid yellowgreen; 
-  font-size: 125%;
-  line-height:1em;
-  border-radius: 5%;
+.highlightText {
+  color: var(--french-mauve);
 }
 
-.btnlink:hover {
-  text-decoration:none;
-  color:yellowgreen;
-  cursor:pointer;
-  /*text-shadow: 3px 3px 2px black;*/
-  border-radius: 50px;
-  background-color: black;
+.bg-russian-violet {
+  background-color: var(--russian-violet) !important;
 }
 
-.btn-link:hover {
-  text-decoration: none;
-  border-color:rgb(204, 190, 0);
-  outline-color: rgb(204, 190, 0);
+.bg-slate-blue {
+  background-color: var(--slate-blue) !important;
 }
 
-.btn-light:hover {
-  border-color: yellowgreen !important;
+.bg-byzantium {
+  background-color: var(--byzantium) !important;
+}
+
+.bg-russian-violet-2 {
+  background-color: var(--russian-violet-2) !important;
+}
+
+.bg-french-mauve {
+  background-color: var(--french-mauve) !important;
+}
+
+.navbar {
+  background-color: var(--russian-violet);
+  --bs-navbar-toggler-border-color: var(--french-mauve) !important;
+}
+
+.section-box {
+  /* padding: 130px 0; */
 }
 
 img {
@@ -116,32 +99,11 @@ img {
 
 h1, h2 {
   font-family: 'Silkscreen', cursive;
-  text-transform: uppercase;
 }
 
 .displayFont {
   font-family: 'Silkscreen', cursive;
   font-size: 100%;
-  
-}
-
-#zeropadmargtopbot {
-  margin: 0;
-  padding: 0;
-}
-
-.loginForm {
-  width: 25%;
-  border: 1px solid green;
-  margin: 20px;
-  padding: 20px;
-  background: black;
-}
-
-.loginLabel {
-  font-size: 12px;
-  border: 1px solid #fff;
-  background: #fff;
 }
 
 input, textarea {
@@ -169,14 +131,3 @@ input[type="submit"]:hover {
   border: 1.5px solid lightcyan;
   /*cursor: pointer;*/
 }
-
-/*.gradient-custom {
- fallback for old browsers 
-background: #6a11cb;
-
-/* Chrome 10-25, Safari 5.1-6 
-background: -webkit-linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1));
-
-/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
-background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))
-} */
