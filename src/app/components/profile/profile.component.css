@@ -31,10 +31,10 @@
             }
 
             h2{
-                color: var(--active-text);
+                color: var(--byzantium);
             }
             h3{  
-                color: var(--secondary-text);
+                color: var(--slate-blue);
             }
 
             .banner-description{

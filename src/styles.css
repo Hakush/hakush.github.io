@@ -9,6 +9,7 @@
   --russian-violet: #2F1143ff;
   --slate-blue: #7469C1ff;
   --byzantium: #76185Cff;
+  --russian-violet-3: rgb(21, 8, 33);
   --russian-violet-2: #2A0F42ff;
   --french-mauve: #B665C3ff;
 
@@ -24,13 +25,12 @@ body {
   overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  background-color: var(--russian-violet) ;
+  background-color: var(--russian-violet-2) ;
   background-repeat: no-repeat;
-  color: #8892b0;
+  color: var(--active-text);
   font-size: 100% ;
   line-height: 150% ;
   text-align: left;
-  font-family: 'Roboto Mono', monospace ;
   background-attachment: fixed;
 }
 
@@ -83,7 +83,7 @@ hr {
 }
 
 .navbar {
-  background-color: var(--russian-violet);
+  background-color: var(--russian-violet-2);
   --bs-navbar-toggler-border-color: var(--french-mauve) !important;
 }
 
