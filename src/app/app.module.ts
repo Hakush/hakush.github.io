@@ -12,38 +12,31 @@ import { EducationComponent } from './components/education/education.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { PortfolioService } from './services/portfolio.service.js';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+// import { PortfolioService } from './services/portfolio.service.js';
+import { HttpClient, HttpClientModule, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { LoginComponent } from './components/login/login.component';
 import { AppRoutingModule } from './app-routing.module';
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    ProfileComponent,
-    InfoComponent,
-    ExperienceComponent,
-    EducationComponent,
-    SkillsComponent,
-    ProjectsComponent,
-    FooterComponent,
-    PortfolioComponent,
-    LoginComponent,
-  ],
-  imports: [
-    BrowserModule,
-    HttpClientModule,
-    AppRoutingModule,
-    ReactiveFormsModule
-  ],
-  providers: [
-    PortfolioService,
-    HttpClientModule
-  ],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+        AppComponent,
+        HeaderComponent,
+        ProfileComponent,
+        InfoComponent,
+        ExperienceComponent,
+        EducationComponent,
+        SkillsComponent,
+        ProjectsComponent,
+        FooterComponent,
+        PortfolioComponent,
+        LoginComponent,
+    ],
+    bootstrap: [AppComponent], imports: [BrowserModule,
+        AppRoutingModule,
+        ReactiveFormsModule], providers: [
+        HttpClientModule,
+        provideHttpClient(withInterceptorsFromDi())
+    ] })
 export class AppModule { }
 
 // import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
