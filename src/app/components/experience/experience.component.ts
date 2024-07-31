@@ -9,6 +9,8 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
 export class ExperienceComponent implements OnInit {
     experiences: any;
 
+    active = 0;
+
     constructor(private datosPortfolio: PortfolioService) {
 
     }
@@ -17,6 +19,7 @@ export class ExperienceComponent implements OnInit {
         // Traer datos de JSON en carpeta assets/
         this.datosPortfolio.obtenerDatos().subscribe(data => {
             this.experiences = data.experiencias;
+            this.experiences.reverse();
         });
     }
 }

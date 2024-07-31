@@ -1,28 +1,4 @@
 <!--3rd Article(article 3): Experiencia-->
-<article class="mb-4 mt-4" style="text-align: center">
-    <div style="display: inline-block; text-align: left;">
-        <div class="row g-0">
-            <div class="card text-center bg-dark" style="max-width:700px;">
-                <div class="card-header displayFont pb-0">
-                    <h3 class="pb-0 mb-0">Experiencia Laboral <button class="bi bi-pencil-square btn btn-dark"></button>
-                    </h3>
-                </div>
-                <div class="card-body py-0">
-                    <p class="card-text">
-                    <ul type="none" style="display: inline-block; text-align: left;">
-
-                        <li *ngFor="let exp of experiences">
-                            <div style="font-size: 20px; text-align:center;"><strong> {{exp.posicion}} </strong> </div>
-                            <strong>Tareas realizadas:</strong> {{exp.descripcion}}
-                            <div><strong>Referencia:</strong> {{exp.referencia}}</div>
-                            <div style="opacity: 80%; text-align: center;">[{{exp.inicio}}-{{exp.fin}}]</div>
-                    </ul>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</article>
 
 <article class="section" id="jobs">
     <div class="container jobs">
@@ -33,22 +9,21 @@
                 </h3>
             </div>
             <div class="jobs-tabs" data-aos="fade-up" data-aos-duration="1000">
-                <ul orientation="vertical" class="nav-tabs jobs-tabs">
-                    <li *ngFor="let job of experiences; let i = index" [title]="job.posicion" [id]="i">
-                        <a ngbNavLink>{{job.posicion}}</a>
+                <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs jobs-tabs">
+                    <li *ngFor="let job of experiences; let i = index" [title]="job.shortPosicion" [ngbNavItem]="i">
+                        <a ngbNavLink class="responsive-link"> {{job.shortPosicion}} </a>
                         <ng-template ngbNavContent>
                             <h4 class="title-tab-content">
-                                {{ job.posicion }}
-                                <span class="company-tab-content">{{ job.company }}</span>
+                                {{job.posicion}} |
+                                <span class="company-tab-content">{{job.compania}}</span>
                             </h4>
-                            <h5 class="job-time">{{ job.desde - job.hasta }}</h5>
-                            <!-- {{job.Description | json}} -->
-                            <p class="job-description" [innerHTML]="job.descripcion"></p>
-                            <span></span>
+                            <h5 class="job-time">{{job.inicio}} - {{job.fin}}</h5>
+                            <p class="job-description">{{job.descripcion}}</p>
                         </ng-template>
                     </li>
                 </ul>
-                <div class="mt-2"></div>
+                
+                <div [ngbNavOutlet]="nav" class="mt-2"></div>
             </div>
         </div>
     </div>

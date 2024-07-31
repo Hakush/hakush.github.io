@@ -12,15 +12,17 @@
   "experiencias": [
     {
       "posicion": "Armado y reparacion de PC",
+      "shortPosicion": "Tech Support",
       "compania": "",
       "img": "#",
       "descripcion": "Instalación de OS, software, conexión de cables/componentes, atención al ciente, caja, diseño gráfico y publicidad",
       "referencia": "",
       "inicio": "2017",
-      "fin": "actualidad"
+      "fin": "2020"
     },
     {
       "posicion": "Programacion web",
+      "shortPosicion": "FO UNC",
       "compania": "Facultad de Odontologia - Universidad Nacional de Cordoba",
       "img": "#",
       "descripcion": "Desarrollo de diversos sistemas web como el de historia clinica unica digital, sistema de postulaciones y sistema de manejo de personal",

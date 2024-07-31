@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
+import { NgbModule, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -18,7 +19,8 @@ import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { LoginComponent } from './components/login/login.component';
 import { AppRoutingModule } from './app-routing.module';
 
-@NgModule({ declarations: [
+@NgModule({
+    declarations: [
         AppComponent,
         HeaderComponent,
         ProfileComponent,
@@ -33,10 +35,12 @@ import { AppRoutingModule } from './app-routing.module';
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
         AppRoutingModule,
-        ReactiveFormsModule], providers: [
-        HttpClientModule,
-        provideHttpClient(withInterceptorsFromDi())
-    ] })
+        ReactiveFormsModule,
+        NgbModule], providers: [
+            HttpClientModule,
+            provideHttpClient(withInterceptorsFromDi())
+        ]
+})
 export class AppModule { }
 
 // import { TranslateLoader, TranslateModule } from '@ngx-translate/core';

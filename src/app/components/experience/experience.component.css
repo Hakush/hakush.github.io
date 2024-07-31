@@ -1,4 +1,4 @@
-::ng-deep .jobs .jobs-tabs {
+.jobs .jobs-tabs {
     display: flex;
 
     .tab-content{
@@ -12,14 +12,14 @@
     }
 
     a.active{
-        background-color: var(--slate-blue) !important;
+        background-color: var(--russian-violet-3) !important;
         color: var(--french-mauve) !important;
         border-color: transparent !important;
         border-radius: 0px;
     }
     
     a:hover{
-        background-color: var(--slate-blue) !important;
+        background-color: var(--russian-violet-3) !important;
         color: var(--french-mauve) !important;
         border-color: transparent !important;
         border-radius: 0px;
@@ -53,8 +53,8 @@
         text-align: left;
         white-space: nowrap;
         font-family: 'SilkScreen';
-        font-size: 13px;
-        color: var(--french-mauve);
+        font-size: 10px;
+        color: var(--primary-text);
     }
 
     li{
@@ -62,6 +62,13 @@
         border-left-width: 2px;
         border-left-style: solid;
         border-left-color: rgb(48, 60, 85);
+    }
+
+    .responsive-link {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 100%;
     }
 }
 
@@ -72,7 +79,7 @@
 
     .title-tab-content{
         color: var(--slate-blue);
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 500;
         margin-bottom: 5px;
 
@@ -97,7 +104,7 @@
         position: relative;
         padding-left: 30px;
         margin-bottom: 10px;
-        font-size: 18px;
+        font-size: 16px;
 
         &:before {
             content: '▹';
@@ -116,7 +123,7 @@
             padding: 0px;
         }
     }
-    ::ng-deep .jobs-tabs{
+    .jobs-tabs{
         display: block !important;
 
         .tab-content{
