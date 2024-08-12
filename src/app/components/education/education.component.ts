@@ -9,6 +9,7 @@ import { PortfolioService } from 'src/app/services/portfolio.service';
 export class EducationComponent implements OnInit {
 
   educationList:any;
+  active = 0;
 
   constructor(private datosPortfolio:PortfolioService) {
 

@@ -1,21 +1,28 @@
 <!--4th Article(article 4): Formación -->
-      <article class="mb-4 mt-4" style="text-align: center">
-        <div style="display: inline-block; text-align: left;">
-        <div class="row g-0">
-        <div class="card text-center bg-dark" style="max-width:700px;">
-        <div class="card-header displayFont pb-0">
-          <h3 class="pb-0 mb-0">Formacion <button class="bi bi-pencil-square btn btn-dark"></button></h3>
+<article class="section" id="jobs">
+    <div class="container jobs">
+        <div class="section-box">
+            <div class="about-title mb-5" data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="e-font section-title">
+                    <span class="code-font n-section-title displayFont ">Studies</span>
+                </h3>
+            </div>
+            <div class="jobs-tabs" data-aos="fade-up" data-aos-duration="1000">
+                <div [ngbNavOutlet]="nav" class="mt-2"></div>
+                <ul ngbNav #nav="ngbNav" [(activeId)]="active" class="nav-tabs jobs-tabs">
+                    <li *ngFor="let edu of educationList; let i = index" [title]="edu.shortTitle" [ngbNavItem]="i">
+                        <a ngbNavLink class="responsive-link"> {{edu.shortTitle}} </a>
+                        <ng-template ngbNavContent>
+                            <h4 class="title-tab-content">
+                                {{edu.titulo}} |
+                                <span class="company-tab-content">{{edu.institucion}}</span>
+                            </h4>
+                            <h5 class="job-time">{{edu.inicio}} - {{edu.fin}}</h5>
+                            <p class="job-description">{{edu.descripcion}}</p>
+                        </ng-template>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="card-body py-0">
-          <p class="card-text">
-          <ul type="circle" style="display: inline-block; text-align: left;">
-
-            <li *ngFor="let edu of educationList" ><strong>{{edu.nivel}}:</strong> {{edu.descripcion}}
-          
-          </ul>
-
-        </div>
-        </div>
-        </div>
-        </div>
-      </article>
+    </div>
+</article>

@@ -78,7 +78,7 @@
     margin: auto;
 
     .title-tab-content{
-        color: var(--slate-blue);
+        color: var(--active-text);
         font-size: 18px;
         font-weight: 500;
         margin-bottom: 5px;
@@ -97,7 +97,7 @@
         -ms-letter-spacing: 0.05em;
         letter-spacing: 0.05em;
         color: var(--french-mauve);
-        margin-bottom: 30px;
+        margin-bottom: 15px;
     }
     
     .job-description{
