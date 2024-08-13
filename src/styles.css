@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -87,6 +89,22 @@ hr {
   --bs-navbar-toggler-border-color: var(--french-mauve) !important;
 }
 
+.main-container {
+  padding: 0 150px;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-container {
+    padding: 0 10px;
+  }
+}
+
 .section-box {
   /* padding: 130px 0; */
 }
@@ -131,11 +149,9 @@ input[type="submit"]:hover {
   border: 1.5px solid lightcyan;
   /*cursor: pointer;*/
 }
-.section-box {
-  padding: 130px 0;
-}
 .section {
   background: var(--russian-violet-2);
+  padding: 75px 0;
 }
 
 .code-font {

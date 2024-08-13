@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NgbModule, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
@@ -34,6 +35,7 @@ import { AppRoutingModule } from './app-routing.module';
         LoginComponent,
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
+        BrowserAnimationsModule,
         AppRoutingModule,
         ReactiveFormsModule,
         NgbModule], providers: [

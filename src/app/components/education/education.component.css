@@ -2,7 +2,7 @@
     display: flex;
 
     .tab-content{
-        margin-left: 38px;
+        margin-right: 38px;
     }
 
     ul{
@@ -58,10 +58,10 @@
     }
 
     li{
-        border-left: 2px solid var(--slate-blue);
-        border-left-width: 2px;
-        border-left-style: solid;
-        border-left-color: rgb(48, 60, 85);
+        border-right: 2px solid var(--slate-blue);
+        border-right-width: 2px;
+        border-right-style: solid;
+        border-right-color: rgb(48, 60, 85);
     }
 
     .responsive-link {
