@@ -39,6 +39,7 @@ testem.log
 /tsconfig.tsbuildinfo
 *.log
 /package-lock.json
+package-lock.json
 
 # System files
 .DS_Store

@@ -1,5 +1,6 @@
 footer{
     color: var(--slate-blue);
+    margin-top: 10%;
 
     .footer-left-bar:after, .footer-right-bar:after{
         content: '';

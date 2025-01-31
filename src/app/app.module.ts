@@ -11,7 +11,6 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { InfoComponent } from './components/info/info.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { EducationComponent } from './components/education/education.component';
-import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { FooterComponent } from './components/footer/footer.component';
 // import { PortfolioService } from './services/portfolio.service.js';
@@ -28,7 +27,6 @@ import { AppRoutingModule } from './app-routing.module';
         InfoComponent,
         ExperienceComponent,
         EducationComponent,
-        SkillsComponent,
         ProjectsComponent,
         FooterComponent,
         PortfolioComponent,
