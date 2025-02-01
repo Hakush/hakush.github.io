@@ -1,4 +1,5 @@
 .about{
+    margin: 0 50px;
 
     .about-description{
         margin-top: 30px;
@@ -50,7 +51,7 @@
         }
 
         &:before {
-            content: '⭐';
+            content: '▹';
             position: absolute;
             left: 0;
             color: var(--french-mauve);
