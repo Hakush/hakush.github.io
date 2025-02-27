@@ -1,0 +1,99 @@
+{
+  "name": "Facundo Sharry",
+  "age": 23,
+  "position": "Fullstack developer",
+  "position2": "Computer Science student at FaMAF-UNC",
+  "pfrom": "Cordoba, Argentina",
+  "cellphone": "(+54 9) 3547-563095",
+  "email": "facundo.sharry@gmail.com",
+  "img_src": "../assets/perfil3.png",
+  "about": "I am a <span class=\"highlightText\">Computer Science </span> student beginning my journey in the <span class=\"highlightText\"> web development</span> market. I can create and design solutions for any problem within both the <span class=\"highlightText\">frontend</span> and <span class=\"highlightText\">backend</span>.",
+  "about2": "I have been studying<span class=\"highlightText\"> Computer Science </span>at the National University of <span class=\"highlightText\">Córdoba, Argentina</span>, since 2021. Throughout my studies, I have gained a solid foundation in various areas, including (but are not limited to) algorithms, data structures, software development, and database management. These skills have equipped me to apply analytical thinking and problem-solving abilities to real-world challenges. <br><br> In 2023, i began working as a <span class=\"highlightText\">full-stack developer</span> at the university's College of Odontology. I am passionate about digitalization and reducing bureaucracy, and I am proud to contribute to this process. One of my significant achievements includes helping develop the digital medical records system for the College of Odontology. <br><br> Some technologies i've worked with:",
+  "experiencias": [
+    {
+      "posicion": "Armado y reparacion de PC",
+      "shortPosicion": "Tech Support",
+      "compania": "",
+      "img": "#",
+      "descripcion": "Instalación de OS, software, conexión de cables/componentes, atención al ciente, caja, diseño gráfico y publicidad",
+      "referencia": "",
+      "inicio": "2017",
+      "fin": "2020"
+    },
+    {
+      "posicion": "Programacion web",
+      "shortPosicion": "FO UNC",
+      "compania": "Facultad de Odontologia - Universidad Nacional de Cordoba",
+      "img": "#",
+      "descripcion": "Desarrollo de diversos sistemas web como el de historia clinica unica digital, sistema de postulaciones y sistema de manejo de personal",
+      "referencia": "Carolina Piva 3515 12-0657",
+      "inicio": "2023-07-01",
+      "fin": "actualidad"
+    }
+  ],
+  "education": [
+    {
+      "nivel": "Universitario",
+      "titulo": "Licenciatura en Ciencias de la Computación",
+      "shortTitle":"C.Science",
+      "img": "../assets/img/UTN_logo.jpg",
+      "descripcion": "Estudiante de 2do año de la carrera de Lic. en Ciencias de la Computación, FAMAF, UNC. (Progreso 43%, Materias 11/27, Promedio: 8.20)",
+      "institucion": "FAMAF, UNC",
+      "inicio": "2021",
+      "fin": "en progreso"
+    },
+    {
+      "nivel": "Curso",
+      "titulo": "Fullstack Developer (Bootstrap, Angular, Springboot)",
+      "shortTitle":"Fullstack",
+      "img": "",
+      "descripcion": "Argentina Programa - Fullstack Developer (Bootstrap, Angular, Springboot)",
+      "institucion": "Argentina Programa",
+      "inicio": "2022",
+      "fin": "26/03/2023"
+      
+    }
+  ],
+  "skills": [
+    {
+      "name": "Ingles",
+      "progress": 75
+    },
+    {
+      "name": "Git",
+      "progress": 75
+    },
+    {
+      "name": "C",
+      "progress": 75
+    },
+    {
+      "name": "Bootstrap",
+      "progress": 75
+    },
+    {
+      "name": "Angular",
+      "progress": 75
+    },
+    {
+      "name": "Springboot",
+      "progress": 75
+    }
+  ],
+  "proyectos": [
+    {
+      "nombre": "Portfolio",
+      "descripcion": "",
+      "paginaUrl": "#",
+      "repositorioUrl": "#",
+      "img": "../assets/img/portfolio.png"
+    },
+    {
+      "nombre": "Portfolio2",
+      "descripcion": "",
+      "paginaUrl": "#",
+      "repoUrl": "#",
+      "img": "../assets/img/portfolio.png"
+    }
+  ]
+}
