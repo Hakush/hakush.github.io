@@ -14,7 +14,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "outputPath": {
-              "base": "dist/front-end"
+              "base": "dist/facundo.sharry"
             },
             "index": "src/index.html",
             "polyfills": [
@@ -43,7 +43,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "600kb",
-                  "maximumError": "1mb"
+                  "maximumError": "10mb"
                 },
                 {
                   "type": "anyComponentStyle",
