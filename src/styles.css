@@ -87,6 +87,11 @@ hr {
 .navbar {
   background-color: var(--russian-violet-2);
   --bs-navbar-toggler-border-color: var(--french-mauve) !important;
+  box-shadow: 0 10px 30px -10px #020c1bb3;
+}
+
+.container-fluid {
+  margin: 0% 5%;
 }
 
 .main-container {
@@ -97,11 +102,17 @@ hr {
   .main-container {
     padding: 0 50px;
   }
+  .container-fluid {
+    margin: 0% 3%;
+  }
 }
 
 @media (max-width: 576px) {
   .main-container {
     padding: 0 10px;
+  }
+  .container-fluid {
+    margin: 0 3%;
   }
 }
 
