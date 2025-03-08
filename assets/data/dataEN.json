@@ -7,57 +7,60 @@
   "cellphone": "(+54 9) 3547-563095",
   "email": "facundo.sharry@gmail.com",
   "img_src": "../assets/perfil3.png",
-  "about": "I am a <span class=\"highlightText\">Computer Science </span> student beginning my journey in the <span class=\"highlightText\"> web development</span> market. I can create and design solutions for any problem within both the <span class=\"highlightText\">frontend</span> and <span class=\"highlightText\">backend</span>. This is precisely what I have been doing in my current job.",
-  "about2": "I have been studying<span class=\"highlightText\"> Computer Science </span>at the National University of <span class=\"highlightText\">Córdoba, Argentina</span>, since 2021. Throughout my studies, I have gained a solid foundation in various areas, including (but are not limited to) algorithms, data structures, software development, and database management. These skills have equipped me to apply analytical thinking and problem-solving abilities to real-world challenges. <br><br> Recently, I began working as a <span class=\"highlightText\">full-stack developer</span> at the university's College of Odontology. I am passionate about digitalization and reducing bureaucracy, and I am proud to contribute to this process. One of my significant achievements includes helping develop the digital medical records system for the College of Odontology. <br><br> Some technologies i've worked with:",
+  "about": "I am a <span class=\"highlightText\">Computer Science </span> student beginning my journey in the <span class=\"highlightText\"> web development</span> market. I can create and design solutions for any problem within both the <span class=\"highlightText\">frontend</span> and <span class=\"highlightText\">backend</span>.",
+  "about2": "I have been studying<span class=\"highlightText\"> Computer Science </span>at the National University of <span class=\"highlightText\">Córdoba, Argentina</span>, since 2021. Throughout my studies, I have gained a solid foundation in various areas, including (but are not limited to) algorithms, data structures, software development, and database management. These skills have equipped me to apply analytical thinking and problem-solving abilities to real-world challenges. <br><br> In 2023, i began working as a <span class=\"highlightText\">full-stack developer</span> at the university's College of Odontology. I am passionate about digitalization and reducing bureaucracy, and I am proud to contribute to this process. One of my significant achievements includes helping develop the digital medical records system for the College of Odontology. <br><br> Some technologies i've worked with:",
   "experiencias": [
     {
-      "posicion": "Armado y reparacion de PC",
+      "posicion": "Tech Support",
       "shortPosicion": "Tech Support",
-      "compania": "",
+      "compania": "Self-Employed",
       "img": "#",
-      "descripcion": "Instalación de OS, software, conexión de cables/componentes, atención al ciente, caja, diseño gráfico y publicidad",
+      "descripcion": ["Windows/Linux and software installation", "PC assembly and repair", "Customer service", "Graphic design and advertising"],
       "referencia": "",
       "inicio": "2017",
       "fin": "2020"
     },
     {
-      "posicion": "Programacion web",
-      "shortPosicion": "FO UNC",
-      "compania": "Facultad de Odontologia - Universidad Nacional de Cordoba",
+      "posicion": "Fullstack Web Developer",
+      "shortPosicion": "Odo. UNC",
+      "compania": "College of Odontology - National University of Cordoba",
       "img": "#",
-      "descripcion": "Desarrollo de diversos sistemas web como el de historia clinica unica digital, sistema de postulaciones y sistema de manejo de personal",
-      "referencia": "Carolina Piva 3515 12-0657",
+      "descripcion": ["Systems developed: Digital Medical Records System, Postulations, Payments, Human Resources, etc.","Techs: (Frontend) HTML/CSS/Javascript, Bootstrap, Jquery", "(Backend) PHP vanilla, Laravel.", "(Database) MySQL", "(Extra) Git , Kanban agile, PagoTIC"],
+      "referencia": "Carolina Piva +54 9 3515 12-0657",
       "inicio": "2023-07-01",
-      "fin": "actualidad"
+      "fin": "Present"
     }
   ],
   "education": [
     {
-      "nivel": "Secundario",
-      "titulo": "Bachiller especializado en Ciencias Sociales",
+      "nivel": "Universitario",
+      "titulo": "Bachelor's degree in Computer Science",
+      "shortTitle":"Analyst",
       "img": "../assets/img/UTN_logo.jpg",
-      "descripcion": "Bachiller especializado en Ciencias Sociales Otorgado por Ipem Independencia 97 en el 2020",
-      "institucion": "Ipem Independencia 97",
-      "inicio": "2018",
-      "fin": "2020"
+      "descripcion": ["Acquired knowledge: algorithms and data structures, mathematical analysis, algebra, algorithm complexity, software development, computer architecture, operating systems, testing, agile methodologies, databases, networks, etc.", "Average: 8.25"],
+      "institucion": "FAMAF, UNC",
+      "inicio": "2021",
+      "fin": "Present | Progress: 68.42%"
     },
     {
       "nivel": "Universitario",
-      "titulo": "Lic. en Ciencias de la Computación",
+      "titulo": "Master's degree in Computer Science",
+      "shortTitle":"C.Science",
       "img": "../assets/img/UTN_logo.jpg",
-      "descripcion": "Estudiante de 2do año de la carrera de Lic. en Ciencias de la Computación, FAMAF, UNC. (Progreso 43%, Materias 11/27, Promedio: 8.20)",
+      "descripcion": ["Acquired knowledge: algorithms and data structures, mathematical analysis, algebra, algorithm complexity, software development, computer architecture, operating systems, testing, agile methodologies, databases, networks, etc.", "Average: 8.25"],
       "institucion": "FAMAF, UNC",
       "inicio": "2021",
-      "fin": "en progreso"
+      "fin": "Present | Progress: 46.43%"
     },
     {
       "nivel": "Curso",
-      "titulo": "Fullstack Developer (Bootstrap, Angular, Springboot)",
+      "titulo": "Fullstack Developer Course",
+      "shortTitle":"Fullstack",
       "img": "",
-      "descripcion": "Argentina Programa - Fullstack Developer (Bootstrap, Angular, Springboot)",
-      "institucion": "Argentina Programa",
+      "descripcion": ["Acquired knowledge: SCRUM, GIT,HTML/CSS/Javascript, Angular, MySQL,Java(spring)"],
+      "institucion": "Argentina Programa (Gov. Program)",
       "inicio": "2022",
-      "fin": "26/03/2023"
+      "fin": "2023-03-26"
       
     }
   ],
