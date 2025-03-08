@@ -18,7 +18,7 @@
                                 <span class="company-tab-content">{{job.compania}}</span>
                             </h4>
                             <h5 class="job-time">{{job.inicio}} - {{job.fin}}</h5>
-                            <p class="job-description">{{job.descripcion}}</p>
+                            <p *ngFor="let li of job.descripcion" class="job-description">{{li}}</p>
                         </ng-template>
                     </li>
                 </ul>
