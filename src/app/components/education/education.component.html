@@ -4,7 +4,7 @@
         <div class="section-box">
             <div class="about-title mb-5" data-aos="fade-up" data-aos-duration="1000">
                 <h3 class="e-font section-title">
-                    <span class="code-font n-section-title displayFont" style="margin-left: 3%;">Studies</span>
+                    <span class="code-font n-section-title displayFont" style="margin-left: 3%;">Education</span>
                 </h3>
             </div>
             <div class="jobs-tabs" data-aos="fade-up" data-aos-duration="1000">
@@ -18,7 +18,7 @@
                                 <span class="company-tab-content">{{edu.institucion}}</span>
                             </h4>
                             <h5 class="job-time">{{edu.inicio}} - {{edu.fin}}</h5>
-                            <p class="job-description">{{edu.descripcion}}</p>
+                            <p *ngFor="let li of edu.descripcion" class="job-description">{{li}}</p>
                         </ng-template>
                     </li>
                 </ul>
