@@ -6,7 +6,7 @@ import { NgbModule, NgbNavModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './components/header/header.component';
+import { NavBarComponent } from './components/navbar/navbar.component';
 import { ProfileComponent } from './components/profile/profile.component';
 import { InfoComponent } from './components/info/info.component';
 import { ExperienceComponent } from './components/experience/experience.component';
@@ -22,7 +22,7 @@ import { AppRoutingModule } from './app-routing.module';
 @NgModule({
     declarations: [
         AppComponent,
-        HeaderComponent,
+        NavBarComponent,
         ProfileComponent,
         InfoComponent,
         ExperienceComponent,
