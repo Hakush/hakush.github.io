@@ -1,9 +1,6 @@
-
-
 * {
   margin: 0;
   padding: 0;
-  /* font-weight: bold; !important */
 }
 
 :root {
@@ -21,7 +18,6 @@
 }
 
 body {
-  margin: 0;
   width: 100%;
   min-height: 100%;
   overflow-x: hidden;
@@ -31,6 +27,7 @@ body {
   background-repeat: no-repeat;
   color: var(--active-text);
   font-size: 100% ;
+  font-family: 'Montserrat', sans-serif;
   line-height: 150% ;
   text-align: left;
   background-attachment: fixed;
@@ -89,10 +86,14 @@ hr {
   --bs-navbar-toggler-border-color: var(--french-mauve) !important;
   box-shadow: none;
   transition: box-shadow 200ms ease-in-out;
+  transition: background-color 200ms ease-in-out;
 }
 
 .navbar.scrolled {
+  background-color: transparent;
   box-shadow: 0 10px 30px -10px #020c1bb3;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 
 .container-fluid {
@@ -194,7 +195,6 @@ input[type="submit"]:hover {
   font-size: 32px;
   font-weight: 600;
   color: var(--slate-blue);
-  font-family: monospace;
   margin: 0 0 10px 0;
 
   .n-section-title {
