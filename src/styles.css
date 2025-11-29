@@ -85,8 +85,8 @@ hr {
   background-color: var(--russian-violet-2);
   --bs-navbar-toggler-border-color: var(--french-mauve) !important;
   box-shadow: none;
-  transition: box-shadow 200ms ease-in-out;
-  transition: background-color 200ms ease-in-out;
+  transition: box-shadow 400ms ease-in-out, 
+              background-color 400ms ease-in-out;
 }
 
 .navbar.scrolled {
