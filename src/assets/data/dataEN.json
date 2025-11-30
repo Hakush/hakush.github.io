@@ -1,14 +1,14 @@
 {
   "name": "Facundo Sharry",
   "age": 23,
-  "position": "Fullstack developer",
+  "position": "Software Engineer",
   "position2": "Computer Science student at FaMAF-UNC",
   "pfrom": "Cordoba, Argentina",
   "cellphone": "(+54 9) 3547-563095",
   "email": "facundo.sharry@gmail.com",
   "img_src": "../assets/perfil3.png",
-  "about": "I am a <span class=\"highlightText\">Computer Science </span> student beginning my journey in the <span class=\"highlightText\"> web development</span> market. I can create and design solutions for any problem within both the <span class=\"highlightText\">frontend</span> and <span class=\"highlightText\">backend</span>.",
-  "about2": "I have been studying<span class=\"highlightText\"> Computer Science </span>at the National University of <span class=\"highlightText\">Córdoba, Argentina</span>, since 2021. Throughout my studies, I have gained a solid foundation in various areas, including (but are not limited to) algorithms, data structures, software development, and database management. These skills have equipped me to apply analytical thinking and problem-solving abilities to real-world challenges. <br><br> In 2023, i began working as a <span class=\"highlightText\">full-stack developer</span> at the university's College of Odontology. I am passionate about digitalization and reducing bureaucracy, and I am proud to contribute to this process. One of my significant achievements includes helping develop the digital medical records system for the College of Odontology. <br><br> Some technologies i've worked with:",
+  "about": "I am in the process of finishing my <span class=\"highlightText\">Computer Science </span> degree and been working in the<span class=\"highlightText\"> web development</span> market for some time now. I design and implement full-stack systems — client apps, APIs and data stores — with an emphasis on performance, testability, and maintainability. I combine systems-thinking and pragmatic engineering to deliver features that scale.",
+  "about2": "I have been studying<span class=\"highlightText\"> Computer Science </span> at the National University of <span class=\"highlightText\">Córdoba, Argentina</span> since 2021. Throughout my studies I have built a solid foundation in areas such as algorithms, data structures, software development, and database management, enabling me to apply analytical thinking and problem-solving to real-world challenges. <br><br>In 2023 I began working as a <span class=\"highlightText\">full-stack developer</span> at the university's College of Odontology. I am passionate about digitalization and reducing bureaucracy; among other contributions, I helped develop a digital medical records system and implement an open-source appointment system. <br><br>Some technologies I have worked with:",
   "experiencias": [
     {
       "posicion": "Tech Support",
