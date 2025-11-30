@@ -8,7 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { NavBarComponent } from './components/navbar/navbar.component';
 import { ProfileComponent } from './components/profile/profile.component';
-import { InfoComponent } from './components/info/info.component';
+import { AboutComponent } from './components/about/about.component';
 import { ExperienceComponent } from './components/experience/experience.component';
 import { EducationComponent } from './components/education/education.component';
 import { ProjectsComponent } from './components/projects/projects.component';
@@ -16,7 +16,6 @@ import { FooterComponent } from './components/footer/footer.component';
 // import { PortfolioService } from './services/portfolio.service.js';
 import { HttpClient, HttpClientModule, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
-import { LoginComponent } from './components/login/login.component';
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
@@ -24,13 +23,12 @@ import { AppRoutingModule } from './app-routing.module';
         AppComponent,
         NavBarComponent,
         ProfileComponent,
-        InfoComponent,
+        AboutComponent,
         ExperienceComponent,
         EducationComponent,
         ProjectsComponent,
         FooterComponent,
         PortfolioComponent,
-        LoginComponent,
     ],
     bootstrap: [AppComponent], imports: [BrowserModule,
         BrowserAnimationsModule,
