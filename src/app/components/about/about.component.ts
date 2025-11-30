@@ -4,11 +4,11 @@ import { PersonService } from 'src/app/services/person.service';
 import { PortfolioService } from 'src/app/services/portfolio.service';
 
 @Component({
-  selector: 'app-info',
-  templateUrl: './info.component.html',
-  styleUrls: ['./info.component.css']
+  selector: 'app-about',
+  templateUrl: './about.component.html',
+  styleUrls: ['./about.component.css']
 })
-export class InfoComponent implements OnInit {
+export class AboutComponent implements OnInit {
 
   miPortfolio:any;
   persona: person = new person('',23,'','','','','','https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U','','');
