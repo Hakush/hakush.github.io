@@ -7,26 +7,14 @@
     }
 
     .about-img-container{
-        width: 324px;
+        width: 251px;
         margin: auto;
 
-        &:after{
-            content: '';
-            border: 2px solid var(--french-mauve);
-            z-index: 0;
-            display: block;
-            position: relative;
-            width: 280px;
-            height: 305px;
-            border-radius: 3px;
-            bottom: 290px;
-            left: 23px;
-
-        }
-
-        img{
+        img {
             z-index: 2;
             position: relative;
+            border: 3px solid var(--french-mauve);
+            border-radius: 3px;
         }
     }
 
