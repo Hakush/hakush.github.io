@@ -180,7 +180,6 @@ input[type="submit"]:hover {
 }
 
 .section-title {
-  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -203,7 +202,6 @@ input[type="submit"]:hover {
     font-weight: normal;
     color: var(--french-mauve);
     font-size: 20px;
-    position: relative;
     bottom: 4px;
   }
 
@@ -213,7 +211,6 @@ input[type="submit"]:hover {
     height: 1px;
     width: 300px;
     background-color: var(--slate-blue);
-    position: relative;
     top: -5px;
     margin-left: 20px;
   }
@@ -272,6 +269,24 @@ a {
 .underline:hover:after {
   width: 100%;
   left: 0;
+}
+
+.skill-table-element {
+  color: var(--french-mauve) !important;
+  padding: 5px 0px 5px 0px;
+}
+
+.skill-element-icon {
+  width: 15%;
+  height: auto;
+  margin-right: 5%;
+  filter: invert(72%) sepia(28%) saturate(747%) hue-rotate(253deg) brightness(91%) contrast(85%);
+}
+
+.title-icon {
+  width: 3%;
+  height: auto;
+  filter: invert(72%) sepia(28%) saturate(747%) hue-rotate(253deg) brightness(91%) contrast(85%);
 }
 
 @media (min-width: 768px) and (max-width: 1100px) {
