@@ -16,6 +16,7 @@
       "compania": "Self-Employed",
       "img": "#",
       "descripcion": ["Windows/Linux and software installation", "PC assembly and repair", "Customer service", "Graphic design and advertising"],
+      "showTable": false,
       "referencia": "",
       "inicio": "2017",
       "fin": "2020"
@@ -25,7 +26,21 @@
       "shortPosicion": "Odo. UNC",
       "compania": "College of Odontology - National University of Cordoba",
       "img": "#",
-      "descripcion": ["Systems developed: Digital Medical Records System, Postulations, Payments, Human Resources, etc.","Techs: (Frontend) HTML/CSS/Javascript, Bootstrap, Jquery", "(Backend) PHP vanilla, Laravel.", "(Database) MySQL", "(Extra) Git , Kanban agile, PagoTIC"],
+      "descripcion": [
+        "<b>Key Contributions:</b>",
+        "Developed and maintained internal healthcare and administrative systems used by a higher-education institution.",
+        "Contributed to a dental medical records platform managing patients, clinical reports, dental charts, insurance data, and statistics.",
+        "Built a web-based postulation system replacing Google Forms and Excel workflows with structured approval flows.",
+        "Rebuilt Human Resources modules using Laravel, focusing on modularity and maintainability.",
+        "Led analysis, documentation (SRS) and development for an appointment scheduling system based on EasyAppointments, adapting institutional requirements to an open-source solution.",
+        "<b>Additional Contributions:</b>",
+        "Performed basic system administration tasks (server users, permissions, deployment scripts).",
+        "Helped organize development workflows (GitHub organization, branch and commit conventions).",
+        "Migrated task management to Jira and supported agile processes.",
+        "Provided technical support and issue triage across the institution.",
+        "Technologies and tools used:"
+        ],
+      "showTable": true,
       "referencia": "Carolina Piva +54 9 3515 12-0657",
       "inicio": "2023-07-01",
       "fin": "Present"
@@ -37,7 +52,7 @@
       "titulo": "Bachelor's degree in Computer Science",
       "shortTitle":"Analyst",
       "img": "../assets/img/UTN_logo.jpg",
-      "descripcion": ["Acquired knowledge: algorithms and data structures, mathematical analysis, algebra, algorithm complexity, software development, computer architecture, operating systems, testing, agile methodologies, databases, networks, etc.", "Average: 8.25"],
+      "descripcion": ["Acquired knowledge: algorithms and data structures, mathematical analysis, algebra, algorithm complexity, software development, computer architecture, operating systems, testing, agile methodologies, databases, networks, etc.", "Cumulative GPA (Argentinian grading system, 0–10 scale): 8.25"],
       "institucion": "FAMAF, UNC",
       "inicio": "2021",
       "fin": "Present | Progress: 68.42%"
@@ -47,7 +62,7 @@
       "titulo": "Master's degree in Computer Science",
       "shortTitle":"C.Science",
       "img": "../assets/img/UTN_logo.jpg",
-      "descripcion": ["Acquired knowledge: algorithms and data structures, mathematical analysis, algebra, algorithm complexity, software development, computer architecture, operating systems, testing, agile methodologies, databases, networks, etc.", "Average: 8.25"],
+      "descripcion": ["Acquired knowledge: algorithms and data structures, mathematical analysis, algebra, algorithm complexity, software development, computer architecture, operating systems, testing, agile methodologies, databases, networks, etc.", "Cumulative GPA (Argentinian grading system, 0–10 scale): 8.25"],
       "institucion": "FAMAF, UNC",
       "inicio": "2021",
       "fin": "Present | Progress: 46.43%"
