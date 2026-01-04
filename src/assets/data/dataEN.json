@@ -27,18 +27,9 @@
       "compania": "College of Odontology - National University of Cordoba",
       "img": "#",
       "descripcion": [
-        "<b>Key Contributions:</b>",
-        "Developed and maintained internal healthcare and administrative systems used by a higher-education institution.",
-        "Contributed to a dental medical records platform managing patients, clinical reports, dental charts, insurance data, and statistics.",
-        "Built a web-based postulation system replacing Google Forms and Excel workflows with structured approval flows.",
-        "Rebuilt Human Resources modules using Laravel, focusing on modularity and maintainability.",
-        "Led analysis, documentation (SRS) and development for an appointment scheduling system based on EasyAppointments, adapting institutional requirements to an open-source solution.",
-        "<b>Additional Contributions:</b>",
-        "Performed basic system administration tasks (server users, permissions, deployment scripts).",
-        "Helped organize development workflows (GitHub organization, branch and commit conventions).",
-        "Migrated task management to Jira and supported agile processes.",
-        "Provided technical support and issue triage across the institution.",
-        "Technologies and tools used:"
+        "Developed and maintained internal healthcare and administrative systems, including a dental medical records platform and structured postulation workflows, replacing manual Excel- and form-based processes.",
+        "Rebuilt and modernized Human Resources and appointment scheduling systems, leading analysis and documentation (SRS) and adapting institutional requirements to existing open-source solutions.",
+        "Contributed to infrastructure and team processes through basic system administration, workflow standardization (Git/GitHub, Jira), and institution-wide technical support."
         ],
       "showTable": true,
       "referencia": "Carolina Piva +54 9 3515 12-0657",
