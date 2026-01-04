@@ -19,7 +19,24 @@
                                 <span class="company-tab-content">{{job.compania}}</span>
                             </h4>
                             <h5 class="job-time">{{job.inicio}} - {{job.fin}}</h5>
-                            <p *ngFor="let li of job.descripcion" class="job-description">{{li}}</p>
+                            <p *ngFor="let li of job.descripcion" class="job-description" [innerHTML]="li"></p>
+                            <table *ngIf="job.showTable">
+                                <tr data-aos="fade-up" data-aos-duration="1000">
+                                    <td class="skill-table-element"><img class="skill-element-icon" src="/assets/icons/html-124-svgrepo-com.svg" alt="HTML Icon">HTML</td>
+                                    <td class="skill-table-element"><img class="skill-element-icon" src="/assets/icons/css3-02-svgrepo-com.svg" alt="CSS3 Icon">CSS</td>
+                                    <td class="skill-table-element"><img class="skill-element-icon" src="/assets/icons/bootstrap-fill-svgrepo-com.svg" alt="Bootstrap Icon">Bootstrap</td>
+                                </tr>
+                                <tr data-aos="fade-up" data-aos-duration="1000">
+                                    <td class="skill-table-element"><img class="skill-element-icon" src="/assets/icons/js01-svgrepo-com.svg" alt="Javascript Icon">Javascript</td>
+                                    <td class="skill-table-element"><img class="skill-element-icon" src="/assets/icons/jquery-svgrepo-com.svg" alt="Jquery Icon">Jquery</td>
+                                    <td class="skill-table-element"><img class="skill-element-icon" src="/assets/icons/mysql-svgrepo-com.svg" alt="MySQL Icon">MySQL</td>
+                                </tr>
+                                <tr data-aos="fade-up" data-aos-duration="1000">
+                                    <td class="skill-table-element"><img class="skill-element-icon" src="/assets/icons/php-svgrepo-com.svg" alt="PHP Icon">PHP</td>
+                                    <td class="skill-table-element"><img class="skill-element-icon" src="/assets/icons/laravel-svgrepo-com.svg" alt="Laravel Icon">Laravel</td>
+                                    <td class="skill-table-element"><img class="skill-element-icon" src="/assets/icons/git-svgrepo-com.svg" alt="Git Icon">Git</td>
+                                </tr>
+                            </table>
                         </ng-template>
                     </li>
                 </ul>
