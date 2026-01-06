@@ -13,6 +13,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import { EducationComponent } from './components/education/education.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ContactComponent } from './components/contact/contact.component';
 // import { PortfolioService } from './services/portfolio.service.js';
 import { HttpClient, HttpClientModule, provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
@@ -29,6 +30,7 @@ import { AppRoutingModule } from './app-routing.module';
         ProjectsComponent,
         FooterComponent,
         PortfolioComponent,
+        ContactComponent
     ],
     bootstrap: [AppComponent], 
     imports: [BrowserModule,
