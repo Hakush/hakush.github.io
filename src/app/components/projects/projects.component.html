@@ -1,39 +1,51 @@
-<!--6th Article(article 6): Proyectos -->
-      <!-- TODO: proyectos en forma de cards con imagenes -->
-      <!-- <article style="text-align: center;">
+<article class="section projects" id='projects'>
+    <div class="container">
+        <div class="section-box">
+            <div data-aos="fade-up" data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="section-title">
+                    <span class="code-font n-section-title displayFont">Projects</span>
+                    <img class ="title-icon" src="/assets/icons/portfolio-image-work-gallery-svgrepo-com.svg" alt="portfolio icon">
+                </h3>
+            </div>
 
-        <div style="display: inline-block; text-align: left;">
-          <div class="row g-0">
-            <div class="card text-center bg-dark" style="max-width:700px;">
-              <div class="card-header displayFont pb-0 mb-100">
-                <h3 class="pb-0 mb-0">Projects <button class="bi bi-pencil-square btn btn-dark"></button></h3>
-              </div>
-              <div class="card-body py-0">
-                <p class="card-text">
-                  <div class="row align-items-center mb-4">
-                        <div class="col-sm">
-                          <div class="card bg-danger" style="width: 18rem;">
-                          <img class="card-img-top" src="..." alt="Card image cap">
-                          <div class="card-body">
-                          <h5 class="card-title">Portfolio</h5>
-                          <p class="card-text">Tech used: html, css (bootstrap), angular, javascript, java, heroku</p>
-                          <a href="#" class="btn btn-primary">Go</a>
-                          </div>
-                          </div>
+            <div *ngFor='let project of projects; let i = index' class="d-flex project-container" data-aos="fade-up" data-aos-duration="1000">
+                <div class="img-feature-project-container" data-aos="fade-up" data-aos-duration="1000" *ngIf="i%2==0">
+                    <div class="img-feature-project-box">
+                        <div class="img-container">
+                            <img class='img-feature-project rounded' [src]="project.imgs[0]" [alt]="project.imgs[0]">
                         </div>
-                        <div class="col-sm">
-                          <div class="card bg-danger" style="width: 18rem;">
-                          <img class="card-img-top" src="..." alt="Card image cap">
-                          <div class="card-body">
-                          <h5 class="card-title">Animated gif of nyancat made in Assembly</h5>
-                          <p class="card-text">(aarch64 architecture with qemu for emulating a 640x480 display)</p>
-                          <a href="#" class="btn btn-primary">Go</a>
-                          </div>
-                          </div>
+                    </div>
+                </div>
+
+                <div [class.project-info-right]='i%2==0' [class.project-info-left]='i%2!=0' class="h-100" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="project-box">
+                        <h4 [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="feature-project">{{project.tipo}}</h4>
+                        <h5 [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="project-name">{{project.nombre}}</h5>
+
+                        <div class="project-description-box">
+                            <p class="mb-0" [innerHTML]="project.descripcion">
+                            </p>
                         </div>
-                      </div>
+                        <ul [class.justify-content-end]='i%2==0' [class.justify-content-start]='i%2!=0' class="project-skills">
+                            <li *ngFor='let technology of project.techs' class="ml-3">
+                              <span class="underline technology">{{technology}}</span>
+                            </li>
+                        </ul>
+                        <div [class.text-right]='i%2==0' [class.text-left]='i%2!=0' class="project-links">
+                            <a style='color: inherit' [href]="project.repositorioUrl" target="_blank"><i class="ml-3 fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="img-feature-project-container" data-aos="fade-up" data-aos-duration="1000" *ngIf="i%2!=0" style="z-index: -1;">
+                    <div class="img-feature-project-box">
+                        <div class="img-container">
+                            <img class='img-feature-project rounded' [src]="project.imgs[0]" [alt]="project.imgs[0]">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        </div>
-        </div>
-        </div>
-      </article> -->
+    </div>
+</article>
