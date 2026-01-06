@@ -1,3 +1,8 @@
 .navbar-links {
     letter-spacing: 3px;
 }
+
+/* Ensure the cursor is a pointer when hovering over navbar links */
+.navbar-links .nav-link {
+    cursor: pointer;
+}
