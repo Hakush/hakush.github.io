@@ -216,6 +216,13 @@ input[type="submit"]:hover {
   }
 }
 
+.contact-title {
+  font-size: 28px;
+  margin: 0 0 20px;
+  color: var(--french-mauve);
+  text-align: center;
+}
+
 .main-btn {
   color: var(--french-mauve);
   background-color: transparent;
@@ -287,6 +294,12 @@ a {
   width: 3%;
   height: auto;
   filter: invert(72%) sepia(28%) saturate(747%) hue-rotate(253deg) brightness(91%) contrast(85%);
+}
+
+.contact-description {
+  margin-bottom: 40px;
+  text-align: center;
+  max-width: 450px;
 }
 
 @media (min-width: 768px) and (max-width: 1100px) {
