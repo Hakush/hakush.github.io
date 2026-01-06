@@ -1,9 +1,6 @@
-
-
 * {
   margin: 0;
   padding: 0;
-  /* font-weight: bold; !important */
 }
 
 :root {
@@ -21,7 +18,6 @@
 }
 
 body {
-  margin: 0;
   width: 100%;
   min-height: 100%;
   overflow-x: hidden;
@@ -31,6 +27,7 @@ body {
   background-repeat: no-repeat;
   color: var(--active-text);
   font-size: 100% ;
+  font-family: 'Montserrat', sans-serif;
   line-height: 150% ;
   text-align: left;
   background-attachment: fixed;
@@ -87,7 +84,16 @@ hr {
 .navbar {
   background-color: var(--russian-violet-2);
   --bs-navbar-toggler-border-color: var(--french-mauve) !important;
+  box-shadow: none;
+  transition: box-shadow 400ms ease-in-out, 
+              background-color 400ms ease-in-out;
+}
+
+.navbar.scrolled {
+  background-color: transparent;
   box-shadow: 0 10px 30px -10px #020c1bb3;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 
 .container-fluid {
@@ -174,7 +180,6 @@ input[type="submit"]:hover {
 }
 
 .section-title {
-  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -189,7 +194,6 @@ input[type="submit"]:hover {
   font-size: 32px;
   font-weight: 600;
   color: var(--slate-blue);
-  font-family: monospace;
   margin: 0 0 10px 0;
 
   .n-section-title {
@@ -198,7 +202,6 @@ input[type="submit"]:hover {
     font-weight: normal;
     color: var(--french-mauve);
     font-size: 20px;
-    position: relative;
     bottom: 4px;
   }
 
@@ -208,7 +211,6 @@ input[type="submit"]:hover {
     height: 1px;
     width: 300px;
     background-color: var(--slate-blue);
-    position: relative;
     top: -5px;
     margin-left: 20px;
   }
@@ -267,6 +269,24 @@ a {
 .underline:hover:after {
   width: 100%;
   left: 0;
+}
+
+.skill-table-element {
+  color: var(--french-mauve) !important;
+  padding: 5px 0px 5px 0px;
+}
+
+.skill-element-icon {
+  width: 15%;
+  height: auto;
+  margin-right: 5%;
+  filter: invert(72%) sepia(28%) saturate(747%) hue-rotate(253deg) brightness(91%) contrast(85%);
+}
+
+.title-icon {
+  width: 3%;
+  height: auto;
+  filter: invert(72%) sepia(28%) saturate(747%) hue-rotate(253deg) brightness(91%) contrast(85%);
 }
 
 @media (min-width: 768px) and (max-width: 1100px) {

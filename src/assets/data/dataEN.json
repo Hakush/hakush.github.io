@@ -1,14 +1,14 @@
 {
   "name": "Facundo Sharry",
   "age": 23,
-  "position": "Fullstack developer",
+  "position": "Software Engineer",
   "position2": "Computer Science student at FaMAF-UNC",
   "pfrom": "Cordoba, Argentina",
   "cellphone": "(+54 9) 3547-563095",
   "email": "facundo.sharry@gmail.com",
   "img_src": "../assets/perfil3.png",
-  "about": "I am a <span class=\"highlightText\">Computer Science </span> student beginning my journey in the <span class=\"highlightText\"> web development</span> market. I can create and design solutions for any problem within both the <span class=\"highlightText\">frontend</span> and <span class=\"highlightText\">backend</span>.",
-  "about2": "I have been studying<span class=\"highlightText\"> Computer Science </span>at the National University of <span class=\"highlightText\">Córdoba, Argentina</span>, since 2021. Throughout my studies, I have gained a solid foundation in various areas, including (but are not limited to) algorithms, data structures, software development, and database management. These skills have equipped me to apply analytical thinking and problem-solving abilities to real-world challenges. <br><br> In 2023, i began working as a <span class=\"highlightText\">full-stack developer</span> at the university's College of Odontology. I am passionate about digitalization and reducing bureaucracy, and I am proud to contribute to this process. One of my significant achievements includes helping develop the digital medical records system for the College of Odontology. <br><br> Some technologies i've worked with:",
+  "about": "I am in the process of finishing my <span class=\"highlightText\">Computer Science </span> degree and  I've been working in <span class=\"highlightText\"> web development</span> for 3 years now. I design and implement full-stack systems — with an emphasis on performance, testability, and maintainability.",
+  "about2": "I have been studying<span class=\"highlightText\"> Computer Science </span> at the National University of <span class=\"highlightText\">Córdoba, Argentina</span> since 2021. Throughout my studies I have built a solid foundation in areas such as algorithms, data structures, software development, and database management, enabling me to apply analytical thinking and problem-solving to real-world challenges. <br><br>In 2023 I began working as a <span class=\"highlightText\">full-stack developer</span> at the university's College of Odontology. I am passionate about digitalization and reducing bureaucracy; among other contributions, I helped develop a dental medical records system, bringing many solutions to our users and clients. <br><br>Some technologies I have worked with:",
   "experiencias": [
     {
       "posicion": "Tech Support",
@@ -16,6 +16,7 @@
       "compania": "Self-Employed",
       "img": "#",
       "descripcion": ["Windows/Linux and software installation", "PC assembly and repair", "Customer service", "Graphic design and advertising"],
+      "showTable": false,
       "referencia": "",
       "inicio": "2017",
       "fin": "2020"
@@ -25,7 +26,12 @@
       "shortPosicion": "Odo. UNC",
       "compania": "College of Odontology - National University of Cordoba",
       "img": "#",
-      "descripcion": ["Systems developed: Digital Medical Records System, Postulations, Payments, Human Resources, etc.","Techs: (Frontend) HTML/CSS/Javascript, Bootstrap, Jquery", "(Backend) PHP vanilla, Laravel.", "(Database) MySQL", "(Extra) Git , Kanban agile, PagoTIC"],
+      "descripcion": [
+        "Developed and maintained internal healthcare and administrative systems, including a dental medical records platform and structured postulation workflows, replacing manual Excel- and form-based processes.",
+        "Rebuilt and modernized Human Resources and appointment scheduling systems, leading analysis and documentation (SRS) and adapting institutional requirements to existing open-source solutions.",
+        "Contributed to infrastructure and team processes through basic system administration, workflow standardization (Git/GitHub, Jira), and institution-wide technical support."
+        ],
+      "showTable": true,
       "referencia": "Carolina Piva +54 9 3515 12-0657",
       "inicio": "2023-07-01",
       "fin": "Present"
@@ -37,7 +43,7 @@
       "titulo": "Bachelor's degree in Computer Science",
       "shortTitle":"Analyst",
       "img": "../assets/img/UTN_logo.jpg",
-      "descripcion": ["Acquired knowledge: algorithms and data structures, mathematical analysis, algebra, algorithm complexity, software development, computer architecture, operating systems, testing, agile methodologies, databases, networks, etc.", "Average: 8.25"],
+      "descripcion": ["Acquired knowledge: algorithms and data structures, mathematical analysis, algebra, algorithm complexity, software development, computer architecture, operating systems, testing, agile methodologies, databases, networks, etc.", "Cumulative GPA (Argentinian grading system, 0–10 scale): 8.25"],
       "institucion": "FAMAF, UNC",
       "inicio": "2021",
       "fin": "Present | Progress: 68.42%"
@@ -47,7 +53,7 @@
       "titulo": "Master's degree in Computer Science",
       "shortTitle":"C.Science",
       "img": "../assets/img/UTN_logo.jpg",
-      "descripcion": ["Acquired knowledge: algorithms and data structures, mathematical analysis, algebra, algorithm complexity, software development, computer architecture, operating systems, testing, agile methodologies, databases, networks, etc.", "Average: 8.25"],
+      "descripcion": ["Acquired knowledge: algorithms and data structures, mathematical analysis, algebra, algorithm complexity, software development, computer architecture, operating systems, testing, agile methodologies, databases, networks, etc.", "Cumulative GPA (Argentinian grading system, 0–10 scale): 8.25"],
       "institucion": "FAMAF, UNC",
       "inicio": "2021",
       "fin": "Present | Progress: 46.43%"
@@ -61,7 +67,6 @@
       "institucion": "Argentina Programa (Gov. Program)",
       "inicio": "2022",
       "fin": "2023-03-26"
-      
     }
   ],
   "skills": [
@@ -90,20 +95,24 @@
       "progress": 75
     }
   ],
-  "proyectos": [
+  "projects": [
     {
-      "nombre": "Portfolio",
-      "descripcion": "",
-      "paginaUrl": "#",
-      "repositorioUrl": "#",
-      "img": "../assets/img/portfolio.png"
+      "nombre": "The Switcher",
+      "tipo": "For Fun Project",
+      "descripcion": "Board game The Switcher, it consists of a 6x6 board made with squares of random colors that can be moved with 'movement cards', the objective is to switch the colors to match a target pattern till you complete your targets cards. Made in React for the frontend and FastAPI for the backend. It features local and online multiplayer modes, with real-time gameplay using WebSockets.",
+      "paginaUrl": "",
+      "repositorioUrl": "https://github.com/orgs/IngSoft1-Capybaras/repositories",
+      "techs": ["React", "FastAPI", "SQLite"],
+      "imgs": ["../assets/switcher.jpg", "../assets/switcher2.jpg", "../assets/switcher3.jpg", "../assets/switcher4.png"]
     },
     {
-      "nombre": "Portfolio2",
-      "descripcion": "",
-      "paginaUrl": "#",
-      "repoUrl": "#",
-      "img": "../assets/img/portfolio.png"
+      "nombre": "NyanCat Animation",
+      "tipo": "For Fun Project",
+      "descripcion": "NyanCat animation made in assembly(armv8) and reproduced in a emulator of an ARM architecture machine with Qemu on a 640x480 pixels screen. It uses double buffering to avoid flickering.",
+      "paginaUrl": "",
+      "repositorioUrl": "https://github.com/facu-sharry/nyancat_in_Assembly",
+      "techs": ["Assembly armv8", "Make"],
+      "imgs": ["https://github.com/facu-sharry/nyancat_in_Assembly/assets/49700623/5d0e1873-5ca4-460c-997a-7f54e20d8f5a"]
     }
   ]
 }
