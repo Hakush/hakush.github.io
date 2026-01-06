@@ -30,14 +30,17 @@ import { AppRoutingModule } from './app-routing.module';
         FooterComponent,
         PortfolioComponent,
     ],
-    bootstrap: [AppComponent], imports: [BrowserModule,
+    bootstrap: [AppComponent], 
+    imports: [BrowserModule,
         BrowserAnimationsModule,
         AppRoutingModule,
         ReactiveFormsModule,
-        NgbModule], providers: [
-            HttpClientModule,
-            provideHttpClient(withInterceptorsFromDi())
-        ]
+        NgbModule,
+    ],
+    providers: [
+        HttpClientModule,
+        provideHttpClient(withInterceptorsFromDi())
+    ]
 })
 export class AppModule { }
 
