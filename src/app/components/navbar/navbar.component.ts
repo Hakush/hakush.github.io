@@ -16,4 +16,16 @@ export class NavBarComponent implements OnInit {
   onWindowScroll(): void {
     this.scrolled = window.pageYOffset > 0;
   }
+
+  scrollToSectionWithOffset(id: string, offset: number): void {
+    const element = document.getElementById(id);
+    if (element) {
+      const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+      const offsetPosition = elementPosition - offset;
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+  }
 }
