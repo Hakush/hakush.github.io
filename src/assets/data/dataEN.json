@@ -8,7 +8,7 @@
   "email": "facundo.sharry@gmail.com",
   "img_src": "../assets/perfil3.png",
   "about": "I am in the process of finishing my <span class=\"highlightText\">Computer Science </span> degree and  I've been working in <span class=\"highlightText\"> web development</span> for 3 years now. I design and implement full-stack systems — with an emphasis on performance, testability, and maintainability.",
-  "about2": "I have been studying<span class=\"highlightText\"> Computer Science </span> at the National University of <span class=\"highlightText\">Córdoba, Argentina</span> since 2021. Throughout my studies I have built a solid foundation in areas such as algorithms, data structures, software development, and database management, enabling me to apply analytical thinking and problem-solving to real-world challenges. <br><br>In 2023 I began working as a <span class=\"highlightText\">full-stack developer</span> at the university's College of Odontology. I am passionate about digitalization and reducing bureaucracy; among other contributions, I helped develop a digital medical records system, bringing many solutions to our users and clients. <br><br>Some technologies I have worked with:",
+  "about2": "I have been studying<span class=\"highlightText\"> Computer Science </span> at the National University of <span class=\"highlightText\">Córdoba, Argentina</span> since 2021. Throughout my studies I have built a solid foundation in areas such as algorithms, data structures, software development, and database management, enabling me to apply analytical thinking and problem-solving to real-world challenges. <br><br>In 2023 I began working as a <span class=\"highlightText\">full-stack developer</span> at the university's College of Odontology. I am passionate about digitalization and reducing bureaucracy; among other contributions, I helped develop a dental medical records system, bringing many solutions to our users and clients. <br><br>Some technologies I have worked with:",
   "experiencias": [
     {
       "posicion": "Tech Support",
@@ -95,20 +95,24 @@
       "progress": 75
     }
   ],
-  "proyectos": [
+  "projects": [
     {
-      "nombre": "Portfolio",
-      "descripcion": "",
-      "paginaUrl": "#",
-      "repositorioUrl": "#",
-      "img": "../assets/img/portfolio.png"
+      "nombre": "The Switcher",
+      "tipo": "For Fun Project",
+      "descripcion": "Board game The Switcher, it consists of a 6x6 board made with squares of random colors that can be moved with 'movement cards', the objective is to switch the colors to match a target pattern till you complete your targets cards. Made in React for the frontend and FastAPI for the backend. It features local and online multiplayer modes, with real-time gameplay using WebSockets.",
+      "paginaUrl": "",
+      "repositorioUrl": "https://github.com/orgs/IngSoft1-Capybaras/repositories",
+      "techs": ["React", "FastAPI", "SQLite"],
+      "imgs": ["../assets/switcher.jpg", "../assets/switcher2.jpg", "../assets/switcher3.jpg", "../assets/switcher4.png"]
     },
     {
-      "nombre": "Portfolio2",
-      "descripcion": "",
-      "paginaUrl": "#",
-      "repoUrl": "#",
-      "img": "../assets/img/portfolio.png"
+      "nombre": "NyanCat Animation",
+      "tipo": "For Fun Project",
+      "descripcion": "NyanCat animation made in assembly(armv8) and reproduced in a emulator of an ARM architecture machine with Qemu on a 640x480 pixels screen. It uses double buffering to avoid flickering.",
+      "paginaUrl": "",
+      "repositorioUrl": "https://github.com/facu-sharry/nyancat_in_Assembly",
+      "techs": ["Assembly armv8", "Make"],
+      "imgs": ["https://github.com/facu-sharry/nyancat_in_Assembly/assets/49700623/5d0e1873-5ca4-460c-997a-7f54e20d8f5a"]
     }
   ]
 }
